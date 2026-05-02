@@ -15,8 +15,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Web development
+          {process.env.REACT_APP_KEY_APPNAME}
         </a>
+        <h1>{process.env.REACT_APP_KEY_VERSION}</h1>
       </header>
     </div>
   );
