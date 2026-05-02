@@ -18,6 +18,7 @@ function App() {
           {process.env.REACT_APP_KEY_APPNAME}
         </a>
         <h1>{process.env.REACT_APP_KEY_VERSION}</h1>
+        <h1>{process.env.REACT_APP_KEY_SECRETV}</h1>
       </header>
     </div>
   );
